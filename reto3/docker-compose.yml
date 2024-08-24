@@ -1,0 +1,6 @@
+version: '3'
+services:
+  nginx:
+    image: miregistrysabado.azurecr.io/nginx-reto3-utejeiro
+    ports:
+      - "7002:80"
